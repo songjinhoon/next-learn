@@ -1,4 +1,10 @@
-const Page = () => {
+import ApiRead from '@/scripts/test';
+import main from '@/scripts/test';
+
+const Page = async () => {
+
+  await main();
+
   return <main>
     <h1 className={`mb-4 text-xl md:text-2xl`}>
       Dashboard
